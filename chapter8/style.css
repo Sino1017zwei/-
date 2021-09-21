@@ -8,3 +8,48 @@ main {
   width:960px;
   margin:50px auto;
 }
+
+.list-contents{
+  width:960px;
+}
+.list:last-child{
+ margin-bottom: 50px;
+}
+
+.list:nth-child(odd){
+  background-color: #acabab;
+}
+
+.list {
+  width:960px;
+  padding:20px;
+}
+
+.tile-contents{
+  width:960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile{
+  width:30%;
+  height:200px;
+  background-color:yellow;
+  margin-right:5%;
+  margin-bottom:40px;
+}
+
+.tile:nth-child(1),.tile:nth-child(5),.tile:nth-child(9){
+  background-color: orange;
+}
+
+.tile:nth-child(3),.tile:nth-child(6), .tile:nth-child(9){
+  margin-right: 0;
+
+}
+
+.tile:nth-child(7),.tile:nth-child(8), .tile:nth-child(9) {
+  margin-bottom: 0;
+}
+
+
